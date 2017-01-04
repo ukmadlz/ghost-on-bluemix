@@ -1,0 +1,26 @@
+{
+  "name": "ghost-on-bluemix",
+  "version": "0.0.1",
+  "description": "Quickly deploy @TryGhost on @IBMBluemix with @Composeio for MySQL",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "NODE_ENV=production node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ukmadlz/ghost-on-bluemix.git"
+  },
+  "author": "Mike Elsmore<mike.elsmore@uk.ibm.com>",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/ukmadlz/ghost-on-bluemix/issues"
+  },
+  "homepage": "https://github.com/ukmadlz/ghost-on-bluemix#readme",
+  "dependencies": {
+    "cf-deployment-tracker-client": "^0.1.2",
+    "cfenv": "^1.0.3",
+    "dotenv": "^2.0.0",
+    "ghost": "^0.11.3"
+  }
+}

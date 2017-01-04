@@ -1,6 +1,6 @@
 # ghost-on-bluemix
 
-[![Deploy to Bluemix](https://deployment-tracker.mybluemix.net/stats/368b15aeafc9433e9ee0ee8448b69bfd/button.svg)](https://bluemix.net/deploy?repository=https://github.com/ukmadlz/ghost-on-bluemix)
+[![Deploy to Bluemix](https://deployment-tracker.mybluemix.net/stats/c3fcb5f65a16f0b07b5141cb598a482b/button.svg)](https://bluemix.net/deploy?repository=https://github.com/ukmadlz/ghost-on-bluemix)
 
 ## Create Compose for MySQL service
 `cf create-service compose-for-mysql Standard GhostDatabase`

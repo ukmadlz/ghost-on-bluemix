@@ -1,4 +1,4 @@
-# ghost-on-bluemix
+# @TryGhost on [IBM Bluemix](https://www.bluemix.net)
 
 ## Deploying to [IBM Bluemix](https://www.bluemix.net)
 

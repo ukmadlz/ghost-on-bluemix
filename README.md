@@ -4,7 +4,7 @@
 
 ### The easy way
 The easiest way to deploy this app to [IBM Bluemix](https://www.bluemix.net) using @Compose for MySQL is to deploy via the button below.
-[![Deploy to Bluemix](https://deployment-tracker.mybluemix.net/stats/c3fcb5f65a16f0b07b5141cb598a482b/button.svg)](https://bluemix.net/deploy?repository=https://github.com/ukmadlz/ghost-on-bluemix)
+[![Deploy to Bluemix](https://deployment-tracker.mybluemix.net/stats/c02dfc223ec81e49b4c05d28d4e23df9/button.svg)](https://bluemix.net/deploy?repository=https://github.com/ibm-cds-labs/ghost-on-bluemix)
 
 ### Manual installation
 

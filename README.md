@@ -4,7 +4,7 @@ Ghost is a very popular blogging platform, it's built by [Ghost Foundation](http
 
 ## Deploying to [IBM Bluemix](https://www.bluemix.net)
 
-> **Note:** This will provision a RethinkDB instance within Bluemix which may incur costs, please see [here](https://console.ng.bluemix.net/catalog/services/compose-for-mysql/) for more information
+> **Note:** This will provision a MySQL instance within Bluemix which may incur costs, please see [here](https://console.ng.bluemix.net/catalog/services/compose-for-mysql/) for more information
 
 ### The easy way
 The easiest way to deploy this app to [IBM Bluemix](https://www.bluemix.net) using [Compose](https://github.com/compose) for MySQL is to deploy via the button below.

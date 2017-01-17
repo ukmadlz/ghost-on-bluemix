@@ -21,7 +21,7 @@ The available API URLs currently are `https://api.ng.bluemix.net` (US), `https:/
 Once that's done we can actually deploy the app. First you will need to grab your own copy.
 
 ```
-git clone git@github.com:ukmadlz/ghost-on-bluemix.git
+git clone git@github.com:ibm-cds-labs/ghost-on-bluemix.git
 cd ghost-on-bluemix
 ```
 

@@ -1,9 +1,9 @@
-# @TryGhost on [IBM Bluemix](https://www.bluemix.net)
+# https://github.com/TryGhost/Ghost/ on [IBM Bluemix](https://www.bluemix.net)
 
 ## Deploying to [IBM Bluemix](https://www.bluemix.net)
 
 ### The easy way
-The easiest way to deploy this app to [IBM Bluemix](https://www.bluemix.net) using @Compose for MySQL is to deploy via the button below.
+The easiest way to deploy this app to [IBM Bluemix](https://www.bluemix.net) using https://github.com/compose for MySQL is to deploy via the button below.
 [![Deploy to Bluemix](https://deployment-tracker.mybluemix.net/stats/2113a61752ea750176a78f022f0416f0/button.svg)](https://bluemix.net/deploy?repository=git+https://github.com/ibm-cds-labs/ghost-on-bluemix.git)
 
 ### Manual installation
@@ -25,7 +25,7 @@ git clone git@github.com:ibm-cds-labs/ghost-on-bluemix.git
 cd ghost-on-bluemix
 ```
 
-You will also need to create the instance of @Compose for MySQL using the command:
+You will also need to create the instance of https://github.com/compose for MySQL using the command:
 
 `cf create-service compose-for-mysql Standard GhostDatabase`
 
@@ -33,15 +33,15 @@ Once the instance is created all you need to do is deploy the code to [IBM Bluem
 
 `cf push`
 
-Now you have a working version of @TryGhost running on [IBM Bluemix](https://www.bluemix.net).
+Now you have a working version of https://github.com/TryGhost/Ghost/ running on [IBM Bluemix](https://www.bluemix.net).
 
 ## Setting up your administrator
 
-Once you have a working version of @TryGhost you will need to create an Admin user to start creating posts and managing the blog. You will need to go to your application on [IBM Bluemix](https://www.bluemix.net) with the following path `<route to applitions>/ghost/setup` and follow the on screen prompts.
+Once you have a working version of https://github.com/TryGhost/Ghost/ you will need to create an Admin user to start creating posts and managing the blog. You will need to go to your application on [IBM Bluemix](https://www.bluemix.net) with the following path `<route to applitions>/ghost/setup` and follow the on screen prompts.
 
 ## Disabling Deployment Tracking
 
-For manual deploys, deployment tracking can be disabled by removing require("cf-deployment-tracker-client").track(); from the end of the app.js main server file.
+For manual deploys, deployment tracking can be disabled by removing require("cf-deployment-tracker-client").track(); from the end of the `index.js` main server file.
 
 ## License
 

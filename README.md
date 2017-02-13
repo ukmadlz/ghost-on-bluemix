@@ -1,10 +1,14 @@
-# @TryGhost on [IBM Bluemix](https://www.bluemix.net)
+# [Ghost](https://github.com/TryGhost/Ghost/) on [IBM Bluemix](https://www.bluemix.net)
+
+Ghost is a very popular blogging platform, it's built by [Ghost Foundation](https://ghost.org/) on Node.js and a selection of SQL solutions.
 
 ## Deploying to [IBM Bluemix](https://www.bluemix.net)
 
+> **Note:** This will provision a MySQL instance within Bluemix which may incur costs, please see [here](https://console.ng.bluemix.net/catalog/services/compose-for-mysql/) for more information
+
 ### The easy way
-The easiest way to deploy this app to [IBM Bluemix](https://www.bluemix.net) using @Compose for MySQL is to deploy via the button below.
-[![Deploy to Bluemix](https://deployment-tracker.mybluemix.net/stats/c3fcb5f65a16f0b07b5141cb598a482b/button.svg)](https://bluemix.net/deploy?repository=https://github.com/ukmadlz/ghost-on-bluemix)
+The easiest way to deploy this app to [IBM Bluemix](https://www.bluemix.net) using [Compose](https://github.com/compose) for MySQL is to deploy via the button below.
+[![Deploy to Bluemix](https://deployment-tracker.mybluemix.net/stats/2113a61752ea750176a78f022f0416f0/button.svg)](https://bluemix.net/deploy?repository=https://github.com/ibm-cds-labs/ghost-on-bluemix.git)
 
 ### Manual installation
 
@@ -21,11 +25,11 @@ The available API URLs currently are `https://api.ng.bluemix.net` (US), `https:/
 Once that's done we can actually deploy the app. First you will need to grab your own copy.
 
 ```
-git clone git@github.com:ukmadlz/ghost-on-bluemix.git
+git clone git@github.com:ibm-cds-labs/ghost-on-bluemix.git
 cd ghost-on-bluemix
 ```
 
-You will also need to create the instance of @Compose for MySQL using the command:
+You will also need to create the instance of [Compose](https://github.com/compose) for MySQL using the command:
 
 `cf create-service compose-for-mysql Standard GhostDatabase`
 
@@ -33,15 +37,15 @@ Once the instance is created all you need to do is deploy the code to [IBM Bluem
 
 `cf push`
 
-Now you have a working version of @TryGhost running on [IBM Bluemix](https://www.bluemix.net).
+Now you have a working version of [Ghost](https://github.com/TryGhost/Ghost/) running on [IBM Bluemix](https://www.bluemix.net).
 
 ## Setting up your administrator
 
-Once you have a working version of @TryGhost you will need to create an Admin user to start creating posts and managing the blog. You will need to go to your application on [IBM Bluemix](https://www.bluemix.net) with the following path `<route to applitions>/ghost/setup` and follow the on screen prompts.
+Once you have a working version of [Ghost](https://github.com/TryGhost/Ghost/) you will need to create an Admin user to start creating posts and managing the blog. You will need to go to your application on [IBM Bluemix](https://www.bluemix.net) with the following path `<route to applitions>/ghost/setup` and follow the on screen prompts.
 
 ## Disabling Deployment Tracking
 
-For manual deploys, deployment tracking can be disabled by removing require("cf-deployment-tracker-client").track(); from the end of the app.js main server file.
+For manual deploys, deployment tracking can be disabled by removing require("cf-deployment-tracker-client").track(); from the end of the `index.js` main server file.
 
 ## License
 

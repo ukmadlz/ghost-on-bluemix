@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ukmadlz/ghost-on-bluemix.git"
+    "url": "git+https://github.com/ibm-cds-labs/ghost-on-bluemix.git"
   },
   "author": "Mike Elsmore<mike.elsmore@uk.ibm.com>",
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/ukmadlz/ghost-on-bluemix/issues"
+    "url": "https://github.com/ibm-cds-labs/ghost-on-bluemix/issues"
   },
-  "homepage": "https://github.com/ukmadlz/ghost-on-bluemix#readme",
+  "homepage": "https://github.com/ibm-cds-labs/ghost-on-bluemix#readme",
   "dependencies": {
     "cf-deployment-tracker-client": "^0.1.2",
     "cfenv": "^1.0.3",
